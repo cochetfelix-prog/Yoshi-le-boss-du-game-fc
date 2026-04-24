@@ -1,0 +1,63 @@
+@font-face {
+    font-family:'Nintendo';
+    src: url(./Fonts/Pretendo.ttf) format('truetype');
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Nintendo;
+  
+}
+
+.header{
+    height: 100 vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    color: darkgreen;
+
+
+}
+
+
+.milieu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: green;
+    
+}
+
+.mid_d{
+    display: flex;
+    flex-direction: column;
+}
+
+.mid_g{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: yellowgreen;
+    font-family: 'Nintendo';
+    color: darkgreen;
+    height: 30px;
+    width: 80px;
+    padding: 10px;
+    border: 2px solid darkgreen;
+    margin: 3px;
+}
+
+.gif1{
+    height: 200px;
+    width: 200px;
+}
+
+.image4{
+   height: 400px;
+   width: 400px;
+}
